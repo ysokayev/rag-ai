@@ -1,0 +1,30 @@
+# System & Environment
+.env
+.venv
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.gemini/
+.tmp/
+
+# Data & Content (Code Books)
+Code Books Only/
+Code Books and Healthcare/
+Code Books and Military/
+Books/
+
+# Extracted Data
+nfpa 70 table/
+nfpa 70 table csv/
+
+# Runtime & Outputs
+sessions/
+Exporters/
+chroma_db/
+*.html
+*.csv
+!app/interface/demand_calculator/nfpa table 310_16_and_CH_9_table_8.json
+
+# Logs
+*.log
